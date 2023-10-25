@@ -1,3 +1,4 @@
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
@@ -120,15 +121,22 @@ public class Main {
 //                }
 //        System.out.println(bool);
 //        TODO 8) biorąc pod uwagę tablicę policz ile razy wystapi w niej sekwencja cyfry 6 i kolejnej 6 bądź 7
-            int[] tab = {2, 6, 6, 1, 5, 6, 6, 4, 6, 3};
-            int a = 0;
-            for(int i = 0; i < tab.length - 1; i++){
-                if(tab[i] == 6 && tab[i+1] == 6 || tab[i+1] == 7){
-                   a++;
-                }
-            }
-        System.out.println(a);
-            // 2 tablice jednowymiarowe różnej długości. wypisz true gdy pierwsze elementy tablicy lub ostatnie są równe
-            //tablica double o dowolnej długości. Odwróć elementy i wypisz na ekranie.
+//            int[] tab = {2, 6, 6, 1, 5, 6, 6, 4, 6, 3};
+//            int a = 0;
+//            for(int i = 0; i < tab.length - 1; i++){
+//                if(tab[i] == 6 && tab[i+1] == 6 || tab[i+1] == 7){
+//                   a++;
+//                }
+//            }
+//        System.out.println(a);
+            //TODO 9) 2 tablice jednowymiarowe różnej długości. wypisz true gdy pierwsze elementy tablicy lub ostatnie są równe
+
+//        int[] a = {3, 4, 1};
+//        int[] b = {3, 1, 1, 3};
+//        if(a[0] == b[0] || a[a.length-1] == b[b.length-1]){
+//            System.out.println(true);}
+        //TODO 10) tablica double o dowolnej długości. Odwróć elementy i wypisz na ekranie.
+        double[] tab = {1, 2, 3, 4};
+
     }
 }
