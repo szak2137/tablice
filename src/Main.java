@@ -120,7 +120,7 @@ public class Main {
 //                }
 //        System.out.println(bool);
 //        TODO 8) biorąc pod uwagę tablicę policz ile razy wystapi w niej sekwencja cyfry 6 i kolejnej 6 bądź 7
-            int[] tab = {2, 6, 6, 1, 5, 6, 6, 4, 6, 7};
+            int[] tab = {2, 6, 6, 1, 5, 6, 6, 4, 6, 3};
             int a = 0;
             for(int i = 0; i < tab.length - 1; i++){
                 if(tab[i] == 6 && tab[i+1] == 6 || tab[i+1] == 7){
@@ -128,6 +128,7 @@ public class Main {
                 }
             }
         System.out.println(a);
-
+            // 2 tablice jednowymiarowe różnej długości. wypisz true gdy pierwsze elementy tablicy lub ostatnie są równe
+            //tablica double o dowolnej długości. Odwróć elementy i wypisz na ekranie.
     }
 }
