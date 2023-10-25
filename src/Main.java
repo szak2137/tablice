@@ -100,18 +100,34 @@ public class Main {
 
 
 //        TODO 6) wypisz true gdy tablica nie zawiera żadnych trójek identycznych liczb po kolei
-            int[] li = {1, 3, 1, 4, 3, 3, 3, 4};
-            boolean bool = true;
-            for(int i = 0; i<li.length - 2; i++){
-                if(li[i] == li[i + 1] && li[i] == li[i+2]){
-                    bool = false;
-                }
-
-            }
-        System.out.println(bool);
+//            int[] li = {1, 3, 1, 4, 3, 3, 3, 4};
+//            boolean bool = true;
+//            for(int i = 0; i<li.length - 2; i++){
+//                if(li[i] == li[i + 1] && li[i] == li[i+2]){
+//                    bool = false;
+//                }
+//
+//            }
+//        System.out.println(bool);
 //        TODO 7) wypisz true, gdy jeden z pierwszych 4 elementów tablicy wynosi 5 (tablica może mieć mniejszy rozmiar)
-
+//            int[] tab = {2, 5, 1, 4, 5, 1, 5};
+//            boolean bool = false;
+//            for(int i = 0; i < 4; i++){
+//                    if(tab[i] == 5){
+//                        bool = true;
+//                    }
+//
+//                }
+//        System.out.println(bool);
 //        TODO 8) biorąc pod uwagę tablicę policz ile razy wystapi w niej sekwencja cyfry 6 i kolejnej 6 bądź 7
+            int[] tab = {2, 6, 6, 1, 5, 6, 6, 4, 6, 7};
+            int a = 0;
+            for(int i = 0; i < tab.length - 1; i++){
+                if(tab[i] == 6 && tab[i+1] == 6 || tab[i+1] == 7){
+                   a++;
+                }
+            }
+        System.out.println(a);
 
     }
 }
